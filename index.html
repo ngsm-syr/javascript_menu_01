@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Single Column Web Page</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js" defer></script>
+</head>
+
+<body>
+	<div id="wrap">
+		<header>
+			<h1>Site Title</h1>
+
+			<button class="menu-btn" id="js-btn">
+				<span class="icon-open">≡</span>
+				<span class="icon-close">×</span>
+			</button>
+
+			<nav class="nav-menu" id="js-nav">
+				<ul>
+					<li><a href="#">HOME</a></li>
+					<li><a href="#">ABOUT</a></li>
+					<li><a href="#">WORKS</a></li>
+					<li><a href="#">CONTACT</a></li>
+				</ul>
+			</nav>
+			<picture>
+				<source media="(max-width: 767px)" srcset="images/square.png">
+				<source media="(min-width: 668px)" srcset="images/main-visual.png">
+				<img src="images/main-visual.png" alt="メインビジュアル">
+			</picture>
+		</header>
+
+		<main>
+			<section class="sec01">
+				<h2>セクション1</h2>
+				<p>ここにコンテンツが入ります。</p>
+			</section>
+			<section class="sec02">
+				<h2>セクション2</h2>
+				<p>さらにコンテンツが入ります。</p>
+			</section>
+			<section class="sec03">
+				<div class="container">
+					<img src="images/square.png" alt="">
+					<img src="images/square.png" alt="">
+					<img src="images/square.png" alt="">
+					<img src="images/square.png" alt="">
+					<img src="images/square.png" alt="">
+					<img src="images/square.png" alt="">
+				</div>
+			</section>
+		</main>
+
+		<footer>
+			<p>© My Site </p>
+		</footer>
+	</div>
+</body>
+
+</html>
