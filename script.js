@@ -1,5 +1,5 @@
 // JavaScript
-console.log("読み込みOK");
+console.log('Hello world!');
 
 const btn = document.querySelector('#js-btn');
 const nav = document.querySelector('#js-nav');
